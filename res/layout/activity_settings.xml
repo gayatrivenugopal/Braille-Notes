@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+ 	<Button 
+		    android:id="@+id/btnSpeechSettings"
+		    android:textColor="@color/white"
+		    android:textSize="30sp"
+		    android:textStyle="bold"
+		    android:text="@string/turn_off_voice"
+		    android:layout_weight="1"
+		    android:layout_width="match_parent"
+		    android:contentDescription="@string/turn_on_voice"
+		    android:layout_height="0dp"
+		    android:background="@color/black"/>
+ 	
+      <Button 
+		    android:id="@+id/btnSaveSettings"
+		    android:text="@string/save_braille"
+			android:textColor="@color/white"
+			android:textSize="30sp"
+			android:textStyle="bold"
+			android:layout_marginTop="60dp"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:contentDescription="@string/save_braille"
+		    android:background="@color/black"/>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="horizontal"
+   >
+   
+   <TableLayout android:layout_width="match_parent" android:layout_height="match_parent">
+	   <TableRow android:layout_weight="1">
+	   		<ImageButton android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	        android:background="@color/black"
+	        android:src="@drawable/dot" 
+	        android:id="@+id/imgCell0"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/dot"
+	        android:longClickable="true"/>
+	        
+	        <TextView android:layout_weight="1"/>
+	    
+	   		<ImageButton android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	        android:background="@color/black"
+	        android:src="@drawable/dot" 
+	        android:id="@+id/imgCell1"
+	         android:contentDescription="@string/dot"
+	        android:layout_weight="1"/>
+	   </TableRow>
+	    
+	   <TableRow android:layout_weight="1"/>
+	    
+	   <TableRow android:layout_weight="1">
+	   		<ImageButton android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	        android:background="@color/black"
+	        android:src="@drawable/dot" 
+	        android:id="@+id/imgCell2"
+	        android:contentDescription="@string/dot"
+	        android:layout_weight="1"/>
+	        
+	         <TextView android:layout_weight="1"/>
+	         
+	  		<ImageButton android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	        android:background="@color/black"
+	        android:src="@drawable/dot" 
+	        android:id="@+id/imgCell3"
+	        android:contentDescription="@string/dot"
+	        android:layout_weight="1"/>
+	   </TableRow>
+	   
+	   <TableRow android:layout_weight="1"/>
+	        
+	   <TableRow android:layout_weight="1">
+	   		<ImageButton android:layout_width="fill_parent" android:layout_height="fill_parent" 
+		        android:background="@color/black"
+		        android:src="@drawable/dot" 
+		        android:id="@+id/imgCell4"
+		        android:contentDescription="@string/dot"
+		        android:layout_weight="1" />
+	        
+	       <TextView android:layout_weight="1"/>
+	      
+	    	<ImageButton android:layout_width="fill_parent" android:layout_height="fill_parent" 
+		        android:background="@color/black"
+		        android:src="@drawable/dot" 
+		        android:id="@+id/imgCell5"
+		        android:contentDescription="@string/dot"
+		        android:layout_weight="1" />
+	   </TableRow>
+   </TableLayout>
+       
+</LinearLayout>

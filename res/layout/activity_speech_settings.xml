@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TableRow>
+	    </TableRow>
+	    <TableRow android:layout_weight="1">
+	    	<TextView android:layout_height="48dp"></TextView>
+	    </TableRow>
+    </TableLayout>
+
+<TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+		<TableRow android:layout_weight="1">
+			<TextView android:layout_height="48dp"></TextView>
+	    </TableRow>
+        <TableRow>
+	    </TableRow>
+	    
+    </TableLayout>
+</LinearLayout>
